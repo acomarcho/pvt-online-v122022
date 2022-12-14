@@ -1,0 +1,36 @@
+{
+  "name": "pvt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "axios": "^0.27.2",
+    "framer-motion": "^6.3.13",
+    "googleapis": "^104.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "next": "12.1.6",
+    "rc-slider": "^10.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-select": "^5.4.0",
+    "rsuite": "^5.15.1",
+    "simple-statistics": "^7.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "18.0.0",
+    "@types/react": "18.0.14",
+    "@types/react-dom": "18.0.5",
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.1.6",
+    "typescript": "4.7.4"
+  }
+}

@@ -1,0 +1,16 @@
+.wrapper {
+  max-width: 768px;
+  padding: 30px;
+  margin: 0 auto;
+  box-shadow: var(--super-shadow);
+  min-height: 100vh;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 1160px;
+    box-shadow: none;
+    padding: 60px;
+  }
+}

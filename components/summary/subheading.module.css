@@ -1,0 +1,14 @@
+.subheadingContainer {
+  margin-top: 15px;
+}
+
+.subheadingContainer h1 {
+  font-size: 21px;
+  color: var(--white-2);
+}
+
+@media (min-width: 768px) {
+  .subheadingContainer h1 {
+    font-size: 30px;
+  }
+}
