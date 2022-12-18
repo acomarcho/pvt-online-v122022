@@ -43,11 +43,20 @@ const App = () => {
           </p>
           <br />
           <div>
-            <Image src="/spacebar-hd.png" width="640" height="360" />
+            <img
+              style={{
+                width: "100%",
+                maxHeight: "25vh",
+                objectFit: "cover",
+              }}
+              src="/spacebar-hd.png"
+              alt="spacebar"
+            />
           </div>
           <br />
           <p>
-            Untuk keluar dari tes, silakan scroll ke bawah lalu tekan tombol &apos;Keluar&apos;.
+            Untuk keluar dari tes, silakan scroll ke bawah lalu tekan tombol
+            &apos;Keluar&apos;.
           </p>
           <br />
           <p>
