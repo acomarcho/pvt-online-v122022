@@ -214,7 +214,7 @@ const Game = () => {
       </div>
       <div style={{ marginTop: "30px" }}>
         <img
-          style={{ width: "100%", maxHeight: "40vh", objectFit: "cover", opacity: showImage ? "100%" : "0" }}
+          style={{ width: "100%", opacity: showImage ? "100%" : "0" }}
           src="/board.png"
           alt="checkered board"
         />

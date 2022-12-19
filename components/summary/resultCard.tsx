@@ -61,6 +61,15 @@ const statistics: Statistic[] = [
     unit: "ms",
     toFixed: 3,
   },
+  {
+    name: "Slowest 10% RT",
+    description: "Rata-rata persentil 10 waktu reaksi terlambat",
+    func: getSlowest10RT,
+    green: 299,
+    yellow: 299,
+    unit: "ms",
+    toFixed: 3,
+  },
 ];
 
 // const statistics: Statistic[] = [
