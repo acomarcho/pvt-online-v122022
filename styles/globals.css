@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 :root {
-  --primary: hsl(187, 100%, 12%);
-  --gradient-atlantic: linear-gradient(90.41deg, #FFFFFF 0%, #3EEBBE 0%, #4EC1F3 0.01%, #68FCD6 100%);
-  --secondary: #6E7198;
+  --primary: hsl(358, 85%, 8%);
+  --gradient-atlantic: linear-gradient(90.41deg, #FFFFFF 0%, hsl(0, 81%, 58%) 0%, hsl(8, 87%, 63%) 0.01%, hsl(16, 96%, 70%) 100%);
+  --secondary: #986e6e;
   --white: rgb(255, 255, 255);
   --white-2: rgba(255, 255, 255, 0.8);
   --gum: #E666B3;
-  --primary-btn: linear-gradient(180deg, rgb(85, 97, 255) 0%, #3643FC 100%);
+  --primary-btn: linear-gradient(180deg, hsl(16, 100%, 45%) 0%, hsl(16, 97%, 40%) 100%);
   --red-btn: linear-gradient(180deg, hsl(347, 100%, 67%) 0%, hsl(347, 97%, 60%) 100%);
   --super-shadow: 0px 100px 126px rgba(0, 0, 0, 0.15), 0px 41.7776px 52.6398px rgba(0, 0, 0, 0.107828), 0px 22.3363px 28.1437px rgba(0, 0, 0, 0.0894161), 0px 12.5216px 15.7772px rgba(0, 0, 0, 0.075), 0px 6.6501px 8.37913px rgba(0, 0, 0, 0.0605839), 0px 2.76726px 3.48674px rgba(0, 0, 0, 0.0421718);
-  --blueberry: #0AA4E7;
+  --blueberry: hsl(33, 92%, 47%);
   --blueberry-fade: rgba(10, 164, 231, 0.3);
-  --card: #3E405B;
+  --card: #5b3e3e;
   --mint: #3EEBBE;
   --banana: #EEA02B;
 }

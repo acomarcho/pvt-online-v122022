@@ -35,7 +35,7 @@ const Range = () => {
         min={0}
         max={100}
         step={0.1}
-        color="#0AA4E7"
+        colorScheme='pink'
         onChange={(v) => onChange(v)}
         marginTop={"45px"}
         marginBottom={"15px"}
@@ -52,7 +52,7 @@ const Range = () => {
         </SliderTrack>
         <Tooltip
           hasArrow
-          bg="#0AA4E7"
+          bg="var(--card)"
           color="white"
           placement="top"
           isOpen={showTooltip}

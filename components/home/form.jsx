@@ -23,7 +23,7 @@ const customStyles = {
   }),
   valueContainer: (provided, _) => ({
     ...provided,
-    background: "#3E3F58",
+    background: "var(--card)",
     padding: "12px 24px",
     color: "var(--white-2)",
     borderRadius: "12px 0 0 12px",
@@ -31,17 +31,17 @@ const customStyles = {
   dropdownIndicator: (provided, _) => ({
     ...provided,
     color: "var(--white-2)",
-    background: "#3E3F58",
+    background: "var(--card)",
   }),
   indicatorsContainer: (provided, _) => ({
     ...provided,
-    background: "#3E3F58",
+    background: "var(--card)",
     borderRadius: "0 12px 12px 0",
   }),
   option: (provided, _) => ({
     ...provided,
     padding: "12px 24px",
-    background: "#36384F",
+    background: "var(--card)",
     color: "var(--white-2)",
   }),
   menu: (provided, _) => ({
