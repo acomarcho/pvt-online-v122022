@@ -3,7 +3,7 @@ import * as moment from "moment";
 import "moment/locale/id";
 
 const { google } = require("googleapis");
-const spreadsheetId = "17QAPMw7QLbrcwsSzrnCT2ou0rnrvrbycmh8rdCChfoA";
+const spreadsheetId = "1tJZytcNgmgk4WCoEFB0S4Gbg9wIu3wIgyD34_NhgZlo";
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
@@ -50,7 +50,7 @@ export default async function handler(req, res) {
       await googleSheets.spreadsheets.values.append({
         auth,
         spreadsheetId,
-        range: "Sheet3!A:T",
+        range: "Sheet1!A:T",
         valueInputOption: "USER_ENTERED",
         resource: {
           values: [
